@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatenbankenPro1.Server", "DatenbankenPro1.Server\DatenbankenPro1.Server.csproj", "{F9DFF53B-BEF9-42BC-8BCE-7880657F96D4}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "datenbankenpro1.client", "datenbankenpro1.client\datenbankenpro1.client.esproj", "{DDC68BAC-8B18-49DA-8C06-A17C20ED9E51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9DFF53B-BEF9-42BC-8BCE-7880657F96D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DFF53B-BEF9-42BC-8BCE-7880657F96D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DFF53B-BEF9-42BC-8BCE-7880657F96D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DFF53B-BEF9-42BC-8BCE-7880657F96D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC68BAC-8B18-49DA-8C06-A17C20ED9E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC68BAC-8B18-49DA-8C06-A17C20ED9E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC68BAC-8B18-49DA-8C06-A17C20ED9E51}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DDC68BAC-8B18-49DA-8C06-A17C20ED9E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC68BAC-8B18-49DA-8C06-A17C20ED9E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC68BAC-8B18-49DA-8C06-A17C20ED9E51}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBBB2B4B-2E99-4622-93AA-3FC9B49AD15A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,49 @@
+.recentProjects {
+  height: 50px;
+}
+
+.recentProjectList {
+  height: 50px;
+  overflow: hidden;
+}
+
+.matcardsubtitle {
+  font-size: 12px;
+}
+
+.mat-card.expanded {
+  max-height: 500px; /* oder eine passende Höhe */
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Zentrierung des Inhalts in der Karte */
+.mat-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Zentrierung der Aktionen (Buttons) in der Karte */
+.mat-card-actions {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  justify-content: center;
+}
+
+/* Stil für Buttons, optional für bessere Sichtbarkeit */
+button.mat-button {
+  margin: 0 5px;
+}
+
+.dashboard-card-header {
+  justify-content: center;
+  display: flex;
+  padding: 5px;
+}
+
+.project-card-header {
+  justify-content: center;
+  display: flex;
+}

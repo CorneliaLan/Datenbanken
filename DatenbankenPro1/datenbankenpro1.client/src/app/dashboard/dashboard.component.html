@@ -1,0 +1,34 @@
+<!--<mat-toolbar color="primary">
+  <span>Projekt-Dashboard</span>
+</mat-toolbar>-->
+
+<mat-card>
+  <mat-card-header class="dashboard-card-header">
+    <mat-card-title>Willkommen zur Projekt-Tracking-WebApp</mat-card-title>
+    <mat-card-subtitle>Starten Sie Ihr erstes Projekt!</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <button mat-raised-button color="accent" [routerLink]="['/create-project']">Neues Projekt erstellen</button>
+  </mat-card-content>
+</mat-card>
+
+<div style="margin-top: 20px;">
+  <div *ngFor="let project of recentProjects">
+    <mat-card>
+      <mat-card-header class="project-card-header">
+        <mat-card-title>{{ project.name }}</mat-card-title>
+        <mat-card-subtitle>Zuletzt bearbeitet: {{ project.lastModified | date }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p *ngIf="project.detailsVisible">Einige Details oder Beschreibung des Projekts können hier stehen.</p>
+      </mat-card-content>
+      <mat-card-actions class="mat-card-actions">
+        <button mat-button (click)="toggleDetails(project)">Details</button>
+        <button mat-button (click)="editProject(project)">Bearbeiten</button>
+        <button mat-button (click)="toggleTimeProtocol(project)">
+          {{ project.isRecording ? 'Stopp' : 'Start' }}
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DatenbankenPro1.Server.props" />
+</Project>
