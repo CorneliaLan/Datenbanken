@@ -18,7 +18,24 @@
 </mat-sidenav-container>-->
 
 <mat-drawer-container class="example-container">
-  <mat-drawer mode="side" opened>Drawer content</mat-drawer>
+  <mat-drawer class="sidenav" mode="side" opened>
+    <!--
+    <mat-nav-list>
+      <div *ngFor="let project of projects">
+        <mat-list-item (click)="detailedProject(project)">
+          <span>{{ project.name }}</span>
+          <button mat-icon-button (click)="editProject(project); $event.stopPropagation();">
+            <mat-icon>edit</mat-icon>
+          </button>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+      </div>
+    </mat-nav-list>-->
+
+    <mat-card-content class="new-project-button">
+      <button mat-raised-button color="white" [routerLink]="['/create-project']">Neues Projekt</button>
+    </mat-card-content>
+  </mat-drawer>
   <mat-drawer-content>
     <app-dashboard></app-dashboard>
   </mat-drawer-content>

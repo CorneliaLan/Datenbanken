@@ -33,3 +33,4 @@ C:\Users\corne\Datenbanken\DatenbankenPro1\DatenbankenPro1.Server\obj\Debug\net8
 C:\Users\corne\Datenbanken\DatenbankenPro1\DatenbankenPro1.Server\obj\Debug\net8.0\DatenbankenPro1.Server.pdb
 C:\Users\corne\Datenbanken\DatenbankenPro1\DatenbankenPro1.Server\obj\Debug\net8.0\DatenbankenPro1.Server.genruntimeconfig.cache
 C:\Users\corne\Datenbanken\DatenbankenPro1\DatenbankenPro1.Server\obj\Debug\net8.0\ref\DatenbankenPro1.Server.dll
+C:\Users\corne\Datenbanken\DatenbankenPro1\DatenbankenPro1.Server\obj\Debug\net8.0\DatenbankenPro1.Server.sourcelink.json

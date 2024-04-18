@@ -1,6 +1,18 @@
 .example-container {
-  width: 400px;
-  height: 200px;
-  margin: 10px;
+  width: 100vw; /* 100% der Viewport-Breite */
+  height: 100vh; /* 100% der Viewport-Höhe */
+  margin: 0; /* Entfernt den Rand, um den ganzen Bildschirm auszufüllen */
   border: 1px solid #555;
+  box-sizing: border-box; /* Stellt sicher, dass die Border im Gesamtbereich enthalten ist */
+}
+
+.sidenav {
+  background-color: rgba(103, 58, 183, 0.75); /* Setzt die Farbe halbtransparent über Weiß */
+  width: 200px;
+  color: white; /* Weiße Schrift */
+}
+
+.new-project-button{
+    color:black;
+    margin-bottom: 10px;
 }

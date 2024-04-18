@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatenbankenPro1.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34f8cd7d58823739a150ba45d5637dc2aaea42a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatenbankenPro1.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatenbankenPro1.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
